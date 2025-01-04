@@ -1,11 +1,23 @@
-import React from "react";
+import Hero from "../components/heroSection";
+import Navbar from "../components/navbar";
 
-const Home=()=>{
-    return(
-        <header><h1>coming to u</h1>
-        <p>i love u</p>
-        </header>
-    )
-}
+
+const Home = () => {
+     return (
+    <>
+    <Navbar/>
+    <Hero/>
+    </>
+  );
+};
+
+
+
+
+
 
 export default Home;
+
+
+
+

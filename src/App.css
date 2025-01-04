@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+/* Apply a background color or image to the entire page */
+body {
+  background-color: #001900
+  ; /* Light gray background */
+  /* Or set a background image like this */
+  /* background-image: url('path-to-your-image.jpg'); */
+  /* background-size: cover; */
+  /* background-position: center; */
+  margin: 0; /* Ensures there is no unwanted margin */
+  padding: 0; /* Resets padding */
+  height: 100%; /* Ensures the background covers the full height */
+}
+
+/* Additional styling for the header */
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Styling for the h1 */
+h1 {
+  font-size: 3em;
+  color:#f0f0f0; /* Dark text color for contrast */
+}
+
+p, h3, h2{
+  color: #f0f0f0;
+}
+
+
+
+
+/* General styles for the navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: hsl(240, 100%, 10%);
+}
+
+
+
+.navbar a {
+ text-decoration: none;
+ color: #f0f0f0 ;
+}
+
+
+/* Brand name on the left */
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Navigation menu on the right */
+.navbar-menu {
+  display: flex;
+  gap: 20px; /* Space between items */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  /* margin-left: 300px; */
+  font-weight:500;
+}
+
+.navbar-menu ul li {
+  cursor: pointer;
+}
+
+/* .navbar-menu ul li:hover {
+  text-decoration: underline;
+} */
