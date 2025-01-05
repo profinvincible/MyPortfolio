@@ -40,15 +40,15 @@ export const LinkedInIcon = () => (
 export const SocialMediaIcons = () => {
     return (
       <div
-        className="flex"
+        className="flex SocialMediaIcons" 
       >
-          <a href="https://web.facebook.com/missGodOwn/" target="_blank" rel="noopener noreferrer" className="links">
+          <a href="https://web.facebook.com/missGodOwn/" target="_blank" rel="noopener noreferrer" className="links"  style={{ "--i": 7}}>
         <FacebookIcon />
       </a>
-      <a href="https://wa.me/08138182852" target="_blank" rel="noopener noreferrer" className="links">
+      <a href="https://wa.me/08138182852" target="_blank" rel="noopener noreferrer" className="links"  style={{ "--i": 8 }}>
         <WhatsappIcon />
       </a>
-      <a href="https://www.linkedin.com/in/ijeoma-muoghalu-8b1193244/" target="_blank" rel="noopener noreferrer" className="links">
+      <a href="https://www.linkedin.com/in/ijeoma-muoghalu-8b1193244/" target="_blank" rel="noopener noreferrer" className="links"  style={{ "--i": 9 }}>
         <LinkedInIcon />
       </a>
       </div>

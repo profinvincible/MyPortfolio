@@ -6,7 +6,11 @@ const Navbar = () => {
      return(
       <nav className="flex items-center justify-between flex-wrap p-6 navbar">
       <div className="flex items-center flex-shrink-0 text-white mr-6 lg:mr-72 navbar-brand">
-      <a className="lg:ml-14" href="#">Portfolio</a>
+      <a  href="#" className="lg:ml-14"
+  onClick={(e) => {
+    e.preventDefault(); // Prevent default anchor behavior
+    window.location.reload(); // Reload the page
+  }}>Portfolio</a>
       </div>
       <div className="block lg:hidden bg-white">
         <button
@@ -32,23 +36,23 @@ const Navbar = () => {
       <div
         className={`w-full block flex-grow lg:flex lg:items-center lg:w-auto ${isOpen ? "block" : "hidden"}`}
       >
-        <div className="text-sm lg:flex-grow lg:ml-80 font-semibold ">
-          <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 ml-4">
+        <div className="text-sm lg:flex-grow lg:ml-80 font-semibold navbar-menu">
+          <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 ml-4 active"  style={{ "--i": 1 }}>
           Home
           </a>
-          <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 ml-4">
+          <a href="#about" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 ml-4"  style={{ "--i": 2 }}>
           About
           </a>
-          <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 ml-4">
+          <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 ml-4"  style={{ "--i": 3 }}>
           Services
           </a>
-          <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 ml-4">
+          <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 ml-4"  style={{ "--i": 4 }}>
           Skills
           </a>
-          <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 ml-4">
+          <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 ml-4"  style={{ "--i": 5 }}>
           Projects
           </a>
-          <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 ml-4">
+          <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 ml-4 "  style={{ "--i": 6 }}>
           Contact
           </a>
         </div>

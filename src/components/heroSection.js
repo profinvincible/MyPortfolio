@@ -2,7 +2,7 @@ import Boss from "../images/heroImage/Boss.jpg";
 import React, { useEffect, useRef } from "react";
 import Typed from "typed.js";
 import {SocialMediaIcons} from "../images/IconPictures/socialIcons";
-import MoreAboutMeButton from "../components/buttons/Aboutme"
+import {MoreAboutMeButton} from "./buttons/AboutmeButton"
 
 
 const Hero = () => {
@@ -12,7 +12,7 @@ const Hero = () => {
     useEffect(() => {
         // Initialize Typed.js for "Hello, it's me..."
         const typed1 = new Typed(textRef.current, {
-            strings: ["Frontend Developer", "Web Developer"], // Strings for the first span
+            strings: ["Frontend Developer", "Web Developer", "Backend Developer"], // Strings for the first span
             typeSpeed: 100,
             backSpeed: 100,
             backDelay: 1000,
@@ -29,8 +29,8 @@ const Hero = () => {
 
     return (
         <section>
-            <div className="container mx-auto">
-                <div className="grid grid-cols-1 md:grid-cols-2 mt-10">
+            <div className="container mx-auto pb-24">
+                <div className="grid grid-cols-1 md:grid-cols-2 mt-14">
                     {/* Left Section */}
                     <div className="lg:ml-auto lg:mt-24 sm:mt-16">
                         <h2 className="sm:text-xs md:text-xl lg:text-2xl font-semibold">

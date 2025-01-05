@@ -4,7 +4,7 @@
 
 /* Apply a background color or image to the entire page */
 body {
-  background-color: #001900; /* Light gray background */
+  background-color: #081b29; /* Light gray background */
   /* Or set a background image like this */
   /* background-image: url('path-to-your-image.jpg'); */
   /* background-size: cover; */
@@ -24,12 +24,37 @@ header {
 h1 {
   font-size: 3em;
   color: #f0f0f0; /* Dark text color for contrast */
+  opacity: 0;
+  animation: slideBottom 1s ease forwards;
+  animation-delay: 0.7s;
 }
 
 p,
 h3,
 h2 {
   color: #f0f0f0;
+}
+
+p {
+  opacity: 0;
+  animation: slideLeft 1s ease forwards;
+  animation-delay: 1s;
+}
+
+h2 {
+  opacity: 0;
+  animation: slideBottom 1s ease forwards;
+  animation-delay: 0.7s;
+}
+
+.SocialMediaIcons {
+  opacity: 0;
+  animation: slideLeft 2s ease forwards;
+  animation-delay: calc(0.2s * var(--i));
+}
+
+h2 span {
+  color: #0ef;
 }
 
 /* General styles for the navbar */
@@ -50,18 +75,27 @@ h2 {
 .navbar-brand {
   font-size: 24px;
   font-weight: bold;
+  cursor: default;
+  opacity: 0;
+  animation: slideRight 1s ease forwards;
 }
 
 /* Navigation menu on the right */
+/* .navbar-menu { */
+/* display: flex; */
+/* gap: 20px; */
+/* list-style: none; */
+/* margin: 0; */
+/* padding: 0; */
+/* scroll-behavior: smooth; */
+/* margin-left: 300px; */
+/* font-weight: 500; */
+/* } */
 .navbar-menu {
-  display: flex;
-  gap: 20px; /* Space between items */
-  list-style: none;
-  margin: 0;
-  padding: 0;
   scroll-behavior: smooth;
-  /* margin-left: 300px; */
-  font-weight: 500;
+  opacity: 0;
+  transition: 3s;
+  animation: slideTop 0.5s ease forwards;
 }
 
 .navbar-menu ul li {
@@ -100,6 +134,56 @@ h2 {
   color: #081b29; /* Color change on hover */
 }
 
+.button {
+  opacity: 0;
+  transition: 3s;
+  animation: slideTop 2s ease forwards;
+}
+
 .button:hover {
   box-shadow: 0 0 20px cyan;
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes slideTop {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes slideBottom {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
 }
