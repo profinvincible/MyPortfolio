@@ -89,6 +89,7 @@ h2 {
 
 .links:hover {
   background: #0ef;
+  box-shadow: 0 0 20px #0ef;
 }
 
 .links:hover svg path {
@@ -97,4 +98,8 @@ h2 {
 
 .links:hover svg {
   color: #081b29; /* Color change on hover */
+}
+
+.button:hover {
+  box-shadow: 0 0 20px cyan;
 }
