@@ -2,13 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-
 /* Apply a background color or image to the entire page */
 body {
-  background-color: #001900
-  ; /* Light gray background */
+  background-color: #001900; /* Light gray background */
   /* Or set a background image like this */
   /* background-image: url('path-to-your-image.jpg'); */
   /* background-size: cover; */
@@ -27,15 +23,14 @@ header {
 /* Styling for the h1 */
 h1 {
   font-size: 3em;
-  color:#f0f0f0; /* Dark text color for contrast */
+  color: #f0f0f0; /* Dark text color for contrast */
 }
 
-p, h3, h2{
+p,
+h3,
+h2 {
   color: #f0f0f0;
 }
-
-
-
 
 /* General styles for the navbar */
 .navbar {
@@ -46,13 +41,10 @@ p, h3, h2{
   background-color: hsl(240, 100%, 10%);
 }
 
-
-
 .navbar a {
- text-decoration: none;
- color: #f0f0f0 ;
+  text-decoration: none;
+  color: #f0f0f0;
 }
-
 
 /* Brand name on the left */
 .navbar-brand {
@@ -69,13 +61,40 @@ p, h3, h2{
   padding: 0;
   scroll-behavior: smooth;
   /* margin-left: 300px; */
-  font-weight:500;
+  font-weight: 500;
 }
 
 .navbar-menu ul li {
   cursor: pointer;
 }
 
-/* .navbar-menu ul li:hover {
-  text-decoration: underline;
-} */
+.links {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid #0ef;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #0ef;
+  text-decoration: none;
+  margin: 30px 15px 30px 0;
+}
+
+.links svg path {
+  fill: #0ef; /* Default icon color */
+}
+
+.links:hover {
+  background: #0ef;
+}
+
+.links:hover svg path {
+  fill: #081b29 !important; /* Icon color change on hover */
+}
+
+.links:hover svg {
+  color: #081b29; /* Color change on hover */
+}
