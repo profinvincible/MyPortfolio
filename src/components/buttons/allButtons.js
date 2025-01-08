@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export const MoreAboutMeButton = () => {
   return (
@@ -10,15 +10,12 @@ export const MoreAboutMeButton = () => {
   );
 };
 
-
-export const MoreAboutMeButton1 = () => {
+export const LearnMore = () => {
   return (
-    <a href="#about">
+    <a href="">
       <button className="bg-cyan-500 text-black font-bold py-2 px-4 rounded-lg button mt-5">
-        More About Me
+        Learn More
       </button>
     </a>
   );
 };
-
-
