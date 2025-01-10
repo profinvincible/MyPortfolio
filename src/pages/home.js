@@ -4,6 +4,7 @@ import AboutMeSection from "../components/AboutmeSection";
 import ServiceSection from "../components/servicesSection";
 import MySkillsSection from "../components/mySkillsSection";
 import LatestProject from "../components/latestProjectSection";
+import ContactMeSection from "../components/contactMeSection";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <ServiceSection />
       <MySkillsSection />
       <LatestProject />
+      <ContactMeSection />
     </>
   );
 };

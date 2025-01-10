@@ -2,20 +2,20 @@ import React from "react";
 
 export const MoreAboutMeButton = () => {
   return (
-    <a href="#about">
-      <button className="bg-cyan-500 text-black font-bold py-2 px-4 rounded-lg button">
-        More About Me
-      </button>
+    <a
+      href
+      className="inline-flex justify-center items-center button text-black font-bold text-lg no-underline mt-5 bg-[#0eff] hover:bg-[#0eff] hover:shadow-[0_0_30px_#0eff] transition-all duration-300 rounded-lg">
+      <button className="py-2 px-4">More About Me</button>
     </a>
   );
 };
 
 export const LearnMore = () => {
   return (
-    <a href="">
-      <button className="bg-cyan-500 text-black font-bold py-2 px-4 rounded-lg button mt-5">
-        Learn More
-      </button>
+    <a
+      href=""
+      className="inline-flex justify-center items-center button text-black font-bold text-lg no-underline mt-5 bg-[#0eff] hover:bg-[#0eff] hover:shadow-[0_0_30px_#0eff] transition-all duration-300 rounded-lg">
+      <button className="py-2 px-4">Learn More</button>
     </a>
   );
 };

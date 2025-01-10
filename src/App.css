@@ -124,6 +124,24 @@ h2 span {
   color: #081b29; /* Color change on hover */
 }
 
+.link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 450px; /* Adjust for rectangle width */
+  height: 40px; /* Adjust for rectangle height */
+  background: transparent;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 30px 15px 30px 0;
+  background-color: #0ef;
+}
+
+.link:hover {
+  background: #0ef;
+  box-shadow: 0 0 20px #0ef;
+}
+
 .serviceList div {
   background-color: transparent;
   padding: 40px;
@@ -133,18 +151,25 @@ h2 span {
   box-shadow: 1px 1px 20px #012290f7, 1px 1px 40px #0053b8f7;
 }
 
+.projectList div:hover {
+  transform: translateY(-10px);
+}
+
 .serviceList div:hover {
   transform: translateY(-10px);
 }
 
 .button {
   opacity: 0;
-  transition: 3s;
+  transition: opacity 0.3s ease, transform 0.3s ease;
   animation: slideTop 2s ease forwards;
 }
 
 .button:hover {
-  box-shadow: 0 0 20px cyan;
+  opacity: 1; /* Ensure it becomes visible immediately on hover */
+  transform: scale(
+    1.05
+  ); /* Optional: Add slight scaling effect for better interaction */
 }
 
 @keyframes fadeIn {

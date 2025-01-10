@@ -74,7 +74,7 @@ const NavbarSection = () => {
             Projects
           </a>
           <a
-            href="#"
+            href="#contact"
             className="block mt-4 lg:inline-block lg:mt-0 text-white-200 ml-6 navbars sm:text-lg "
             style={{ "--i": 6 }}>
             Contact

@@ -15,7 +15,7 @@ const LatestProject = () => {
             </h1>
           </header>
 
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-10 mt-11">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-10 mt-11 mb-10 projectList">
             <div className="relative group overflow-hidden">
               <a
                 href="https://mini-calculator-mu.vercel.app/"
