@@ -7,7 +7,7 @@ const NavbarSection = () => {
     <nav className="flex items-center justify-between flex-wrap p-6 navbar">
       <div className="flex items-center flex-shrink-0 text-white mr-6 lg:mr-72 navbar-brand">
         <a
-          href=""
+          href="www.example.com"
           className="lg:ml-24"
           onClick={(e) => {
             e.preventDefault(); // Prevent default anchor behavior
