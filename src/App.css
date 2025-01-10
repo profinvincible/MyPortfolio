@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 /* Apply a background color or image to the entire page */
 body {
   background-color: #081b29; /* Light gray background */
@@ -135,7 +134,7 @@ h2 span {
 }
 
 .serviceList div:hover {
- transform: translateY(-10px);
+  transform: translateY(-10px);
 }
 
 .button {
@@ -146,6 +145,109 @@ h2 span {
 
 .button:hover {
   box-shadow: 0 0 20px cyan;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fillGray {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes fillGreen {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 90%; /* Set your desired percentage */
+  }
+}
+
+@keyframes fillYGreen {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 65%; /* Set your desired percentage */
+  }
+}
+
+@keyframes fillInGreen {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 50%; /* Set your desired percentage */
+  }
+}
+
+@keyframes fillUpGreen {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 60%; /* Set your desired percentage */
+  }
+}
+
+@keyframes filGreen {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 80%; /* Set your desired percentage */
+  }
+}
+
+@keyframes fillgreen {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 70%; /* Set your desired percentage */
+  }
+}
+
+.animate-fillGray {
+  animation: fillGray 1s ease-out forwards; /* Animate the gray line */
+}
+
+.animate-fillGreen {
+  animation: fillGreen 1s ease-out 1s forwards; /* Animate the green line after gray line (delay of 2s) */
+}
+
+.animate-fillUpGreen {
+  animation: fillUpGreen 1s ease-out 1s forwards; /* Animate the green line after gray line (delay of 2s) */
+}
+
+.animate-filGreen {
+  animation: filGreen 1s ease-out 1s forwards; /* Animate the green line after gray line (delay of 2s) */
+}
+
+.animate-fillgreen {
+  animation: fillgreen 1s ease-out 1s forwards; /* Animate the green line after gray line (delay of 2s) */
+}
+
+.animate-fillInGreen {
+  animation: fillInGreen 1s ease-out 1s forwards; /* Animate the green line after gray line (delay of 2s) */
+}
+.animate-fillYGreen {
+  animation: fillYGreen 1s ease-out 1s forwards; /* Animate the green line after gray line (delay of 2s) */
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.1s ease-in 2s forwards; /* Percentage fades in after green line animation */
 }
 
 @media (max-width: 640px) {
@@ -166,14 +268,20 @@ h2 span {
   }
 }
 
-/* @media (max-width: 640px) {
+@media (max-width: 640px) {
   .center-icons {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 15px;
   }
-} */
+}
+
+@keyframes animate {
+  100% {
+    transform: scaleX(1);
+  }
+}
 
 @keyframes slideRight {
   0% {
@@ -226,5 +334,3 @@ h2 span {
   transition: opacity 1s ease-out, transform 1s ease-out;
   animation: fadeIn 1s ease-out forwards; /* Animation to fade and slide in */
 }
-
-

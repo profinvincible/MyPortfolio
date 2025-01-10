@@ -22,7 +22,7 @@ const AboutMe = () => {
               <h4 className="text-white text-xl font-semibold mt-5 center-text ">
                 Full Stack Developer
               </h4>
-              <p className=" leading-relaxed mt-5 mb-7 center-text">
+              <p className="mt-5 mb-7 center-text">
                 I am a self-motivated and passionate IT personnel with a keen
                 interest in fullstack web development. I am proficient in wring
                 HTML, CSS, tailwind, SASS, Gits & Github, Figma, and Bootstrap.
