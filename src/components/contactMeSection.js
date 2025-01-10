@@ -7,7 +7,7 @@ const ContactMeSection = () => {
     <>
       <section id="contact">
         <div className="container mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 mt-24">
+          <div className="grid grid-cols-1 md:grid-cols-2 mt-24 center-text">
             <div>
               <h2 className="font-bold text-3xl center-text mt-11 text-center">
                 Contact <span>Me</span>
@@ -23,16 +23,20 @@ const ContactMeSection = () => {
                 Fusce tempus lacus sit amet mauris tincidunt, nec tristique ante
                 dictum. Sed ac justo vitae enim varius fringilla.
               </p>
-              <div className="flex mt-5">
+
+              <div className="flex flex-col sm:flex-row mt-5 center-icons">
                 <ContactMe />
-                <h5 className="text-[#fff]">contact@gmail.com</h5>
+                <h5 className="text-[#fff] sm:ml-3 lg:ml-0">
+                  contact@gmail.com
+                </h5>
               </div>
-              <div className="mt-6">
+
+              <div className="md:mt-6 sm:mt-3 center-icons">
                 <SocialMediaIcons />
               </div>
             </div>
             <div>
-              <form class="flex flex-col gap-4 max-w-md mx-auto">
+              <form class="flex flex-col gap-4 max-w-md mx-auto mb-10">
                 <input
                   type="text"
                   placeholder="Enter Your Name"
@@ -58,7 +62,7 @@ const ContactMeSection = () => {
                 <input
                   type="submit"
                   value="Submit"
-                  className="bg-[#0eff] link button text-black font-medium rounded-lg p-2 cursor-pointer transition-all"
+                  className="bg-[#0eff] text-black md:text-xl font-medium rounded-lg p-2 cursor-pointer transition-all hover:bg-[#0eff] hover:shadow-[0_0_20px_#0eff] sm:h-16 sm:px-6 sm:py-3"
                 />
               </form>
             </div>
