@@ -1,4 +1,4 @@
-import './App';
+import "./App";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/home";
 import ErrorBoundary from "./components/ErrorBoundary"; // Import the ErrorBoundary component
@@ -6,7 +6,9 @@ import ErrorBoundary from "./components/ErrorBoundary"; // Import the ErrorBound
 function App() {
   return (
     <Router>
-      <ErrorBoundary> {/* Wrap the Routes or individual Route with ErrorBoundary */}
+      <ErrorBoundary>
+        {" "}
+        {/* Wrap the Routes or individual Route with ErrorBoundary */}
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
@@ -16,5 +18,3 @@ function App() {
 }
 
 export default App;
-
-
