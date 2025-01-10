@@ -25,6 +25,7 @@ const LastSection = () => {
           Developed with love by Muoghalu Ijeoma Florence @ 2025
         </p>
         <a
+          href="www.example.com"
           className={`fixed right-4 bottom-0 cursor-pointer text-2xl md:text-4xl ${
             isScrolling ? "text-black" : "text-white"
           }`}>
