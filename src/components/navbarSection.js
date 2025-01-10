@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "././../../src/App.css";
 
-const Navbar = () => {
+const NavbarSection = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <nav className="flex items-center justify-between flex-wrap p-6 navbar">
@@ -85,4 +85,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavbarSection;

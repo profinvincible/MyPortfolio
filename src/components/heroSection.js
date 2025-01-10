@@ -4,7 +4,7 @@ import Typed from "typed.js";
 import { SocialMediaIcons } from "../images/IconPictures/socialIcons";
 import { MoreAboutMeButton } from "./buttons/allButtons";
 
-const Hero = () => {
+const HeroSection = () => {
   const textRef = useRef(null);
   const animateRef = useRef(null); // Reference for the element to animate on scroll
 
@@ -85,4 +85,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default HeroSection;

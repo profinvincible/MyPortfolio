@@ -13,7 +13,7 @@ import { CommunicationCircleImage } from "../images/professionalCircle";
 import { ProblemSolvingCircleImage } from "../images/professionalCircle";
 import { TeamWorkCircleImage } from "../images/professionalCircle";
 
-const MySkills = () => {
+const MySkillsSection = () => {
   return (
     <>
       <section className="" id="skills">
@@ -215,4 +215,4 @@ const MySkills = () => {
   );
 };
 
-export default MySkills;
+export default MySkillsSection;

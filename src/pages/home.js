@@ -1,17 +1,19 @@
-import Hero from "../components/heroSection";
-import Navbar from "../components/navbar";
-import AboutMe from "../components/AboutmeSection";
+import HeroSection from "../components/heroSection";
+import NavbarSection from "../components/navbarSection";
+import AboutMeSection from "../components/AboutmeSection";
 import ServiceSection from "../components/servicesSection";
-import MySkills from "../components/mySkills";
+import MySkillsSection from "../components/mySkillsSection";
+import LatestProject from "../components/latestProjectSection";
 
 const Home = () => {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <AboutMe />
+      <NavbarSection />
+      <HeroSection />
+      <AboutMeSection />
       <ServiceSection />
-      <MySkills />
+      <MySkillsSection />
+      <LatestProject />
     </>
   );
 };

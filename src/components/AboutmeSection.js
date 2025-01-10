@@ -2,7 +2,7 @@ import React from "react";
 import Boss from "../images/heroImage/Boss.jpg";
 import { MoreAboutMeButton } from "./buttons/allButtons";
 
-const AboutMe = () => {
+const AboutMeSection = () => {
   return (
     <>
       <section className="about" id="about">
@@ -46,4 +46,4 @@ const AboutMe = () => {
   );
 };
 
-export default AboutMe;
+export default AboutMeSection;
