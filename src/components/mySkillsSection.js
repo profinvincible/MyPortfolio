@@ -16,7 +16,7 @@ import { TeamWorkCircleImage } from "../images/professionalCircle";
 const MySkillsSection = () => {
   return (
     <>
-      <section className="" id="skills">
+      <section id="skills">
         <div className="container mx-auto">
           <header className="w-full text-center text-white mt-16 mt-custom-sm">
             <h1 className="text-3xl font-bold md:mt-24">

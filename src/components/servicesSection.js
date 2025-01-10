@@ -14,7 +14,7 @@ const ServiceSection = () => {
               My <span>Services</span>
             </h1>
           </header>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mt-14 center-text serviceList">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-14 center-text serviceList">
             <div>
               <UX />
               <h2 className="mt-5 text-xl">UI/UX Design</h2>

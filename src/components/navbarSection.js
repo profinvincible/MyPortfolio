@@ -68,7 +68,7 @@ const NavbarSection = () => {
             Skills
           </a>
           <a
-            href="#"
+            href="#projects"
             className="block mt-4 lg:inline-block lg:mt-0 text-white-200 ml-6 navbars sm:text-lg"
             style={{ "--i": 5 }}>
             Projects
