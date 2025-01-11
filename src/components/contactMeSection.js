@@ -25,13 +25,16 @@ const ContactMeSection = () => {
     e.preventDefault(); // Prevent the default form submission
 
     try {
-      const response = await fetch("https://myportfolio-0y5a.onrender.com", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData), // Send the form data as a JSON body
-      });
+      const response = await fetch(
+        "https://myportfolio-0y5a.onrender.com/send-email",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData), // Send the form data as a JSON body
+        }
+      );
 
       const data = await response.json();
       if (response.ok) {
@@ -54,7 +57,6 @@ const ContactMeSection = () => {
               Contact <span>Me</span>
             </h2>
             <h4 className="text-[#fff] font-medium mt-3">
-              {" "}
               Let's work together
             </h4>
             <p className="mt-3">

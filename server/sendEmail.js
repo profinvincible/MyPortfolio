@@ -11,7 +11,7 @@ app.use(cors()); // This will allow all origins
 app.use(bodyParser.json()); // For parsing JSON bodies
 
 // POST route to handle form submission
-app.post("/https://myportfolio-0y5a.onrender.com", async (req, res) => {
+app.post("/send-email", async (req, res) => {
   const { name, email, subject, message } = req.body;
 
   const transporter = nodemailer.createTransport({
