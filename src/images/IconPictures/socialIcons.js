@@ -63,6 +63,22 @@ export const SocialMediaIcons = () => {
   return (
     <div className="flex SocialMediaIcons">
       <a
+        href="https://github.com/profinvincible"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="links"
+        style={{ "--i": 9 }}>
+        <Github />
+      </a>
+      <a
+        href="https://www.linkedin.com/in/ijeoma-muoghalu-8b1193244/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="links"
+        style={{ "--i": 9 }}>
+        <LinkedInIcon />
+      </a>
+      <a
         href="https://web.facebook.com/missGodOwn/"
         target="_blank"
         rel="noopener noreferrer"
@@ -77,22 +93,6 @@ export const SocialMediaIcons = () => {
         className="links"
         style={{ "--i": 8 }}>
         <WhatsappIcon />
-      </a>
-      <a
-        href="https://www.linkedin.com/in/ijeoma-muoghalu-8b1193244/"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="links"
-        style={{ "--i": 9 }}>
-        <LinkedInIcon />
-      </a>
-      <a
-        href="https://github.com/profinvincible"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="links"
-        style={{ "--i": 9 }}>
-        <Github />
       </a>
     </div>
   );
