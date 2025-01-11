@@ -25,7 +25,7 @@ const ContactMeSection = () => {
     e.preventDefault(); // Prevent the default form submission
 
     try {
-      const response = await fetch("http://localhost:5000/send-email", {
+      const response = await fetch("https://myportfolio-0y5a.onrender.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
