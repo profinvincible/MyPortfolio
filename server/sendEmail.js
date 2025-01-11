@@ -7,7 +7,7 @@ const app = express();
 const port = 5000; // Or any port you want
 
 // Enable CORS for all routes (adjust for production settings if needed)
-app.use(cors());
+app.use(cors()); // This will allow all origins
 app.use(bodyParser.json()); // For parsing JSON bodies
 
 // POST route to handle form submission
@@ -24,7 +24,7 @@ app.post("/send-email", async (req, res) => {
 
   const mailOptions = {
     from: "muoghaluijeoma9@gmail.com",
-    to: "muoghaluijeoma9@gmail.com", // This should be a valid email address
+    to: "muoghaluijeoma9@gmail.com", // The email where you want to receive the form messages
     subject: subject || "New Message from Contact Form", // Default subject if not provided
     text: `Name: ${name}\nEmail: ${email}\nSubject: ${subject}\nMessage: ${message}`,
   };
@@ -33,6 +33,7 @@ app.post("/send-email", async (req, res) => {
     await transporter.sendMail(mailOptions);
     res.status(200).json({ message: "Email sent successfully!" });
   } catch (error) {
+    console.error("Error sending email:", error);
     res.status(500).json({ error: "Failed to send email" });
   }
 });
