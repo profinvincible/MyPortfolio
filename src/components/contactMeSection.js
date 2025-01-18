@@ -186,9 +186,9 @@ const ContactMeSection = () => {
   };
 
   return (
-    <section id="contact">
+    <section id="contact" style={{ padding: "1rem" }}>
       <div className="container mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 mt-24 center-text">
+        <div className="grid grid-cols-1 md:grid-cols-2 md:mt-24 center-text">
           <div>
             <h2 className="font-bold text-3xl center-text mt-11 text-center">
               Contact <span>Me</span>
@@ -253,7 +253,8 @@ const ContactMeSection = () => {
               <input
                 type="submit"
                 value="Submit"
-                className="bg-[#0eff] text-black md:text-xl font-medium rounded-lg p-2 cursor-pointer transition-all hover:bg-[#0eff] hover:shadow-[0_0_20px_#0eff] sm:h-16 sm:px-6 sm:py-3"
+                style={{ padding: "0.75rem 1.5rem" }}
+                className="   custom-contact-padding bg-[#0eff] text-black md:text-xl font-medium rounded-lg p-2 cursor-pointer transition-all hover:bg-[#0eff] hover:shadow-[0_0_20px_#0eff] sm:h-16 sm:px-6 sm:py-3"
               />
             </form>
           </div>

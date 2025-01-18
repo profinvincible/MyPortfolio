@@ -7,7 +7,7 @@ import { LearnMore } from "../components/buttons/allButtons";
 const ServiceSection = () => {
   return (
     <>
-      <section className="services" id="services">
+      <section className="services" id="services" style={{ padding: "1rem" }}>
         <div className="container mx-auto">
           <header className="w-full text-center text-white mt-16 mt-custom-sm">
             <h1 className="text-3xl font-bold mt-24">

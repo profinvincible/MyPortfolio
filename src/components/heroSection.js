@@ -42,7 +42,7 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <section id="home">
+    <section id="home" style={{ padding: "1rem" }}>
       <div className="container mx-auto pb-24">
         <div className="grid grid-cols-1 md:grid-cols-2 mt-14">
           <div
@@ -77,6 +77,7 @@ const HeroSection = () => {
               src={Boss}
               alt="Description"
               className="w-full max-w-sm lg:w-96 h-auto rounded-lg shadow-md"
+              // style={{ padding: "1rem" }}
             />
           </div>
         </div>

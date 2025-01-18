@@ -38,7 +38,7 @@ const NavbarSection = () => {
         className={`w-full block flex-grow lg:flex lg:items-center lg:w-auto ${
           isOpen ? "block" : "hidden"
         }`}>
-        <div className="text-sm lg:flex-grow ml-44 font-semibold navbar-menu center-text sm:font-semibold">
+        <div className="text-sm lg:flex-grow ml-44 font-semibold sm:font-semibold">
           <a
             href="#"
             onClick={(e) => {

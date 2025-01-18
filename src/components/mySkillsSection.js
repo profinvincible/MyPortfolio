@@ -16,15 +16,17 @@ import { TeamWorkCircleImage } from "../images/professionalCircle";
 const MySkillsSection = () => {
   return (
     <>
-      <section id="skills">
+      <section id="skills" style={{ padding: "1rem" }}>
         <div className="container mx-auto">
-          <header className="w-full text-center text-white mt-16 mt-custom-sm">
+          <header
+            className="w-full text-center text-white mt-16 mt-custom-sm"
+            style={{ padding: "1rem" }}>
             <h1 className="text-3xl font-bold md:mt-24">
               My <span>Skills</span>
             </h1>
           </header>
           <div className="grid grid-cols-1 md:grid-cols-2 mt-11">
-            <div className="Technical-Bars">
+            <div>
               <h1 className="underline underline-offset-[10px] text-xl font-semibold md:mt-10  md:mb-16 sm:mb-11 center-text">
                 Technical Skills
               </h1>
@@ -190,7 +192,7 @@ const MySkillsSection = () => {
             </div>
 
             <div className="mt-10">
-              <h1 className="underline underline-offset-[10px] text-xl font-semibold mb-10 md:mx-40 text-center">
+              <h1 className="underline whitespace-nowrap underline-offset-[10px] text-xl font-semibold mb-10 md:mx-40 text-center">
                 Professional Skills
               </h1>
               <div className="grid grid-cols-2 md:grid-cols-2 gap-9 md:gap-3 mt-12 mx-auto">

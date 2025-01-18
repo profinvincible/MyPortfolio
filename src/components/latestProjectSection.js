@@ -7,7 +7,7 @@ import calculator from "../images/MyProjectsPictues/calculator.jpg";
 const LatestProject = () => {
   return (
     <>
-      <section id="projects">
+      <section id="projects" style={{ padding: "1rem" }}>
         <div className="container mx-auto">
           <header className="w-full text-center text-white mt-16 mt-custom-sm">
             <h1 className="text-3xl font-bold md:mt-24">

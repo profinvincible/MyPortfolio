@@ -5,14 +5,14 @@ import { MoreAboutMeButton } from "./buttons/allButtons";
 const AboutMeSection = () => {
   return (
     <>
-      <section className="about" id="about">
+      <section className="about" id="about" style={{ padding: "1rem" }}>
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2">
-            <div className="lg:ml-14 mt-11 order-last md:order-first sm:pb-20">
+            <div className="lg:ml-14 md:mt-11 order-last md:order-first sm:pb-20">
               <img
                 src={Boss}
                 alt="Description"
-                className="w-full sm:w-48 md:w-60 h-auto rounded-lg shadow-md md:mt-24"
+                className="w-full sm:w-48 md:w-64 h-auto rounded-lg shadow-md md:mt-24 mt-7"
               />
             </div>
             <div className="md:mt-16 order-first md:order-last lg:ml-16">
