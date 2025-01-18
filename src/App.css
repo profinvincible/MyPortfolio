@@ -10,7 +10,7 @@ body {
   /* background-size: cover; */
   /* background-position: center; */
   margin: 0; /* Ensures there is no unwanted margin */
-  padding: 5px; /* Resets padding */
+  padding: 0; /* Resets padding */
   height: 100%; /* Ensures the background covers the full height */
 }
 
