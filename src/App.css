@@ -284,6 +284,27 @@ h2 span {
   }
 }
 
+@media (max-width: 640px) {
+  .center-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 15px;
+    font-size: large;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+
+  .center-center a {
+    margin-bottom: 3px;
+  }
+
+  .center-center a:last-child {
+    margin-bottom: 0;
+  }
+}
+
 @keyframes animate {
   100% {
     transform: scaleX(1);
