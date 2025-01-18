@@ -22,12 +22,12 @@ const LastSection = () => {
     <>
       <div className="relative text-center bg-[#0eff] flex items-center justify-center">
         <p className="text-black mt-3">
-          Developed with love by Muoghalu Ijeoma Florence @ 2025
+          Developed with love by ProfInvincible @ 2025
         </p>
         <a
           href=""
           className={`fixed right-4 bottom-0 cursor-pointer text-2xl md:text-4xl ${
-            isScrolling ? "text-black" : "text-white"
+            isScrolling ? "text-white" : "text-black"
           }`}>
           <i className="bx bxs-up-arrow-square"></i>
         </a>

@@ -12,6 +12,8 @@ body {
   margin: 0; /* Ensures there is no unwanted margin */
   padding: 0; /* Resets padding */
   height: 100%; /* Ensures the background covers the full height */
+  width: 100%; /* Ensures the width spans the entire viewport */
+  overflow-x: hidden; /* Prevents horizontal scrolling */
 }
 
 /* Styling for the h1 */
