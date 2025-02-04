@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "ajv": "^8.17.1",
     "body": "^5.1.0",
     "boxicons": "^2.1.4",
     "parser": "^0.1.4",

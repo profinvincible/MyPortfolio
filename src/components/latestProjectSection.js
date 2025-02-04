@@ -3,6 +3,7 @@ import blog from "../images/MyProjectsPictues/blog.jpg";
 import miniBankApp from "../images/MyProjectsPictues/miniBankApp.jpg";
 import UIUXDESIGNIMAGE from "../images/MyProjectsPictues/UIUXDESIGNIMAGE.jpg";
 import calculator from "../images/MyProjectsPictues/calculator.jpg";
+import weatherAppPicture from "../images/MyProjectsPictues/weatherAppPicture.jpg";
 
 const LatestProject = () => {
   return (
@@ -15,6 +16,7 @@ const LatestProject = () => {
             </h1>
           </header>
 
+          {/* <h4 className="text-[#ffff] text-2xl">Calculator</h4> */}
           <div className="grid grid-cols-2 md:grid-cols-3 gap-10 mt-11 mb-10 projectList">
             <div className="relative group overflow-hidden">
               <a
@@ -38,6 +40,18 @@ const LatestProject = () => {
                 target="_blank"
                 rel="noopener noreferrer">
                 <img src={blog} alt="Description" />
+                <div
+                  className="absolute inset-0 bg-[rgba(0,239,255,0.5)] opacity-0 group-hover:opacity-100 
+                 group-hover:translate-y-0 translate-y-full transition-transform duration-500 ease-in-out"></div>
+              </a>
+            </div>
+
+            <div className="relative group overflow-hidden">
+              <a
+                href="https://www.figma.com/proto/mFVl2eFDV4W4IVhOEjOFl2/KoloVest?node-id=417-5"
+                target="_blank"
+                rel="noopener noreferrer">
+                <img src={weatherAppPicture} alt="Description" />
                 <div
                   className="absolute inset-0 bg-[rgba(0,239,255,0.5)] opacity-0 group-hover:opacity-100 
                  group-hover:translate-y-0 translate-y-full transition-transform duration-500 ease-in-out"></div>
