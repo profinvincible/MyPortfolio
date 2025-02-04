@@ -48,7 +48,7 @@ const LatestProject = () => {
 
             <div className="relative group overflow-hidden">
               <a
-                href="https://www.figma.com/proto/mFVl2eFDV4W4IVhOEjOFl2/KoloVest?node-id=417-5"
+                href="https://drive.google.com/file/d/1tpj50sK4XzBO95tglF691BHtBAunT5gj/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer">
                 <img src={weatherAppPicture} alt="Description" />
