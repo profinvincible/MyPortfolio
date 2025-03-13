@@ -5,7 +5,7 @@ import UIUXDESIGNIMAGE from "../images/MyProjectsPictues/UIUXDESIGNIMAGE.jpg";
 import calculator from "../images/MyProjectsPictues/calculator.jpg";
 import weatherAppPicture from "../images/MyProjectsPictues/weatherAppPicture.jpg";
 import marketStation from "../images/MyProjectsPictues/marketStation.png";
-import EighthGear from "../images/MyProjectsPictues/EighthGear.jpg";
+import EighthGear from "../images/MyProjectsPictues/8thGear.jpg";
 
 const LatestProject = () => {
   return (
@@ -69,7 +69,9 @@ const LatestProject = () => {
                 <div
                   className="absolute inset-0 flex items-center justify-center bg-[rgba(0,239,255,0.5)] opacity-0 group-hover:opacity-100 
       group-hover:translate-y-0 translate-y-full transition-transform duration-500 ease-in-out">
-                  <p className="text-2xl font-bold text-white">My Calculator</p>
+                  <p className="text-2xl font-bold text-white">
+                    My Web Calculator
+                  </p>
                 </div>
               </a>
             </div>
