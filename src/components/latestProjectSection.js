@@ -4,6 +4,8 @@ import miniBankApp from "../images/MyProjectsPictues/miniBankApp.jpg";
 import UIUXDESIGNIMAGE from "../images/MyProjectsPictues/UIUXDESIGNIMAGE.jpg";
 import calculator from "../images/MyProjectsPictues/calculator.jpg";
 import weatherAppPicture from "../images/MyProjectsPictues/weatherAppPicture.jpg";
+import marketStation from "../images/MyProjectsPictues/marketStation.png";
+import EighthGear from "../images/MyProjectsPictues/EighthGear.jpg";
 
 const LatestProject = () => {
   return (
@@ -15,9 +17,45 @@ const LatestProject = () => {
               Latest<span className="text-[#0eff]">Projects</span>
             </h1>
           </header>
-
-          {/* <h4 className="text-[#ffff] text-2xl">Calculator</h4> */}
           <div className="grid grid-cols-2 md:grid-cols-3 gap-10 mt-11 mb-10 projectList">
+            <div className="relative group overflow-hidden">
+              <a
+                href="https://www.8thgearpartners.com/"
+                target="_blank"
+                rel="noopener noreferrer">
+                <img
+                  src={EighthGear}
+                  alt="Description"
+                  className="md:h-[210px] h-[106px] w-full object-cover"
+                />
+                <div
+                  className="absolute inset-0 flex items-center justify-center bg-[rgba(0,239,255,0.5)] opacity-0 group-hover:opacity-100 
+      group-hover:translate-y-0 translate-y-full transition-transform duration-500 ease-in-out">
+                  <p className="text-2xl font-bold text-white">8thGear Hub</p>
+                </div>
+              </a>
+            </div>
+
+            <div className="relative group overflow-hidden">
+              <a
+                href="https://market-station-brown.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer">
+                <img
+                  src={marketStation}
+                  alt="Description"
+                  className="md:h-[210px] h-[106px] w-full object-cover"
+                />
+                <div
+                  className="absolute inset-0 flex items-center justify-center bg-[rgba(0,239,255,0.5)] opacity-0 group-hover:opacity-100 
+      group-hover:translate-y-0 translate-y-full transition-transform duration-500 ease-in-out">
+                  <p className="text-2xl font-bold text-white">
+                    Market Station
+                  </p>
+                </div>
+              </a>
+            </div>
+
             <div className="relative group overflow-hidden">
               <a
                 href="https://mini-calculator-mu.vercel.app/"
@@ -29,8 +67,10 @@ const LatestProject = () => {
                   className="md:h-[210px] h-[106px]"
                 />
                 <div
-                  className="absolute inset-0 bg-[rgba(0,239,255,0.5)] opacity-0 group-hover:opacity-100 
-                 group-hover:translate-y-0 translate-y-full transition-transform duration-500 ease-in-out"></div>
+                  className="absolute inset-0 flex items-center justify-center bg-[rgba(0,239,255,0.5)] opacity-0 group-hover:opacity-100 
+      group-hover:translate-y-0 translate-y-full transition-transform duration-500 ease-in-out">
+                  <p className="text-2xl font-bold text-white">My Calculator</p>
+                </div>
               </a>
             </div>
 
@@ -41,8 +81,10 @@ const LatestProject = () => {
                 rel="noopener noreferrer">
                 <img src={blog} alt="Description" />
                 <div
-                  className="absolute inset-0 bg-[rgba(0,239,255,0.5)] opacity-0 group-hover:opacity-100 
-                 group-hover:translate-y-0 translate-y-full transition-transform duration-500 ease-in-out"></div>
+                  className="absolute inset-0 flex items-center justify-center bg-[rgba(0,239,255,0.5)] opacity-0 group-hover:opacity-100 
+      group-hover:translate-y-0 translate-y-full transition-transform duration-500 ease-in-out">
+                  <p className="text-2xl font-bold text-white">My MiniBlog</p>
+                </div>
               </a>
             </div>
 
@@ -53,8 +95,12 @@ const LatestProject = () => {
                 rel="noopener noreferrer">
                 <img src={weatherAppPicture} alt="Description" />
                 <div
-                  className="absolute inset-0 bg-[rgba(0,239,255,0.5)] opacity-0 group-hover:opacity-100 
-                 group-hover:translate-y-0 translate-y-full transition-transform duration-500 ease-in-out"></div>
+                  className="absolute inset-0 flex items-center justify-center bg-[rgba(0,239,255,0.5)] opacity-0 group-hover:opacity-100 
+      group-hover:translate-y-0 translate-y-full transition-transform duration-500 ease-in-out">
+                  <p className="text-2xl font-bold text-white">
+                    Mini Weather App
+                  </p>
+                </div>
               </a>
             </div>
 
@@ -65,8 +111,12 @@ const LatestProject = () => {
                 rel="noopener noreferrer">
                 <img src={miniBankApp} alt="Description" />
                 <div
-                  className="absolute inset-0 bg-[rgba(0,239,255,0.5)] opacity-0 group-hover:opacity-100 
-                 group-hover:translate-y-0 translate-y-full transition-transform duration-500 ease-in-out"></div>
+                  className="absolute inset-0 flex items-center justify-center bg-[rgba(0,239,255,0.5)] opacity-0 group-hover:opacity-100 
+      group-hover:translate-y-0 translate-y-full transition-transform duration-500 ease-in-out">
+                  <p className="text-2xl font-bold text-white">
+                    Dormant Bank App
+                  </p>
+                </div>
               </a>
             </div>
 
@@ -77,8 +127,10 @@ const LatestProject = () => {
                 rel="noopener noreferrer">
                 <img src={UIUXDESIGNIMAGE} alt="Description" />
                 <div
-                  className="absolute inset-0 bg-[rgba(0,239,255,0.5)] opacity-0 group-hover:opacity-100 
-                 group-hover:translate-y-0 translate-y-full transition-transform duration-500 ease-in-out"></div>
+                  className="absolute inset-0 flex items-center justify-center bg-[rgba(0,239,255,0.5)] opacity-0 group-hover:opacity-100 
+      group-hover:translate-y-0 translate-y-full transition-transform duration-500 ease-in-out">
+                  <p className="text-2xl font-bold text-white">UI/UX Design</p>
+                </div>
               </a>
             </div>
           </div>
