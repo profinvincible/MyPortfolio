@@ -69,8 +69,8 @@ const LatestProject = () => {
                 <div
                   className="absolute inset-0 flex items-center justify-center bg-[rgba(0,239,255,0.5)] opacity-0 group-hover:opacity-100 
       group-hover:translate-y-0 translate-y-full transition-transform duration-500 ease-in-out">
-                  <p className="text-2xl font-bold text-white">
-                    My Web Calculator
+                  <p className="text-2xl font-bold text-white text-nowrap">
+                    My Mobile/Web Calculator
                   </p>
                 </div>
               </a>
