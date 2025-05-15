@@ -71,7 +71,7 @@ export const SocialMediaIcons = () => {
         <Github />
       </a>
       <a
-        href="https://www.linkedin.com/in/ijeoma-muoghalu-8b1193244/"
+        href="https://www.linkedin.com/in/ijeoma-muoghalu-251896243/"
         target="_blank"
         rel="noopener noreferrer"
         className="links"
