@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@formspree/react": "^3.0.0",
     "ajv": "^8.17.1",
     "body": "^5.1.0",
     "boxicons": "^2.1.4",
@@ -26,9 +27,9 @@
       "react-app/jest"
     ],
     "rules": {
-    "jsx-a11y/anchor-is-valid": "off",
-    "react-hooks/exhaustive-deps": "off"
-  }
+      "jsx-a11y/anchor-is-valid": "off",
+      "react-hooks/exhaustive-deps": "off"
+    }
   },
   "browserslist": {
     "production": [
