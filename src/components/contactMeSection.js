@@ -157,8 +157,9 @@ const ContactMeSection = () => {
               Let's work together
             </h4>
             <p className="mt-3">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-              convallis quam ac nisl tincidunt, at dapibus libero condimentum.
+              Have a project or opportunity you'd like to discuss? 
+I'm always open to new challenges and collaborations. 
+Drop me a message and let's build something great together!
             </p>
             <div className="flex flex-col sm:flex-row mt-5 center-icons">
               <ContactMe />
