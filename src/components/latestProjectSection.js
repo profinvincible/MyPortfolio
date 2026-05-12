@@ -6,6 +6,8 @@ import calculator from "../images/MyProjectsPictues/calculator.jpg";
 import weatherAppPicture from "../images/MyProjectsPictues/weatherAppPicture.jpg";
 import marketStation from "../images/MyProjectsPictues/marketStation.png";
 import EighthGear from "../images/MyProjectsPictues/8thGear.jpg";
+import tubescriptai from "../images/MyProjectsPictues/tubescriptai.jpg";
+import newBethelMinistry from "../images/MyProjectsPictues/newBethelMinistry.jpg";
 
 const LatestProject = () => {
   return (
