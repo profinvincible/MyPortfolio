@@ -162,7 +162,7 @@ const ContactMeSection = () => {
             </p>
             <div className="flex flex-col sm:flex-row mt-5 center-icons">
               <ContactMe />
-              <h5 className="text-[#fff] sm:ml-3 lg:ml-0">contact@gmail.com</h5>
+              <h5 className="text-[#fff] sm:ml-3 lg:ml-0">muoghaluijeoma@gmail.com</h5>
             </div>
             <div className="md:mt-6 sm:mt-3 center-icons">
               <SocialMediaIcons />

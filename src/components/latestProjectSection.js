@@ -18,9 +18,43 @@ const LatestProject = () => {
             </h1>
           </header>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-10 mt-11 mb-10 projectList">
+             <div className="relative group overflow-hidden">
+              <a
+                href="https://www.tubescriptai.me"
+                target="_blank"
+                rel="noopener noreferrer">
+                <img
+                  src={tubescriptai}
+                  alt="Description"
+                  className="md:h-[210px] h-[106px] w-full object-cover"
+                />
+                <div
+                  className="absolute inset-0 flex items-center justify-center bg-[rgba(0,239,255,0.5)] opacity-0 group-hover:opacity-100 
+               group-hover:translate-y-0 translate-y-full transition-transform duration-500 ease-in-out">
+                  <p className="text-2xl font-bold text-white">TubeScript AI</p>
+                </div>
+              </a>
+            </div>
+             <div className="relative group overflow-hidden">
+              <a
+                href="https://new-bethel-ministry.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer">
+                <img
+                  src={newBethelMinistry}
+                  alt="Description"
+                  className="md:h-[210px] h-[106px] w-full object-cover"
+                />
+                <div
+                  className="absolute inset-0 flex items-center justify-center bg-[rgba(0,239,255,0.5)] opacity-0 group-hover:opacity-100 
+               group-hover:translate-y-0 translate-y-full transition-transform duration-500 ease-in-out">
+                  <p className="text-2xl font-bold text-white">New Bethel Ministry</p>
+                </div>
+              </a>
+            </div>
             <div className="relative group overflow-hidden">
               <a
-                href="https://www.8thgearpartners.com/"
+                href="https://www.8thgearpartners.com"
                 target="_blank"
                 rel="noopener noreferrer">
                 <img
@@ -30,7 +64,7 @@ const LatestProject = () => {
                 />
                 <div
                   className="absolute inset-0 flex items-center justify-center bg-[rgba(0,239,255,0.5)] opacity-0 group-hover:opacity-100 
-      group-hover:translate-y-0 translate-y-full transition-transform duration-500 ease-in-out">
+               group-hover:translate-y-0 translate-y-full transition-transform duration-500 ease-in-out">
                   <p className="text-2xl font-bold text-white">8thGear Hub</p>
                 </div>
               </a>
@@ -38,7 +72,7 @@ const LatestProject = () => {
 
             <div className="relative group overflow-hidden">
               <a
-                href="https://market-station-brown.vercel.app/"
+                href="https://market-station-brown.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer">
                 <img
@@ -58,7 +92,7 @@ const LatestProject = () => {
 
             <div className="relative group overflow-hidden">
               <a
-                href="https://mini-calculator-mu.vercel.app/"
+                href="https://mini-calculator-mu.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer">
                 <img
@@ -78,7 +112,7 @@ const LatestProject = () => {
 
             <div className="relative group overflow-hidden">
               <a
-                href="https://my-blog-fullstack-nvqw.vercel.app/"
+                href="https://my-blog-fullstack-nvqw.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer">
                 <img src={blog} alt="Description" />
@@ -108,7 +142,7 @@ const LatestProject = () => {
 
             <div className="relative group overflow-hidden">
               <a
-                href="https://profinvincible.github.io/ASSIGNMENT/"
+                href="https://profinvincible.github.io/ASSIGNMENT"
                 target="_blank"
                 rel="noopener noreferrer">
                 <img src={miniBankApp} alt="Description" />
