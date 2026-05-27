@@ -54,6 +54,25 @@ const LatestProject = () => {
                 </div>
               </a>
             </div>
+
+            <div className="relative group overflow-hidden">
+              <a
+                href="https://asa-luxe-frontend.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer">
+                <img
+                  src={asaluxe}
+                  alt="Description"
+                  className="md:h-[210px] h-[106px] w-full object-cover"
+                />
+                <div
+                  className="absolute inset-0 flex items-center justify-center bg-[rgba(0,239,255,0.5)] opacity-0 group-hover:opacity-100 
+               group-hover:translate-y-0 translate-y-full transition-transform duration-500 ease-in-out">
+                  <p className="text-2xl font-bold text-white">Asa Luxe</p>
+                </div>
+              </a>
+            </div>
+
             <div className="relative group overflow-hidden">
               <a
                 href="https://www.8thgearpartners.com"
