@@ -8,6 +8,7 @@ import marketStation from "../images/MyProjectsPictues/marketStation.png";
 import EighthGear from "../images/MyProjectsPictues/8thGear.jpg";
 import tubescriptai from "../images/MyProjectsPictues/tubescriptai.png";
 import newBethelMinistry from "../images/MyProjectsPictues/newBethelMinistry.png";
+import asaluxe from "../images/MyProjectsPictues/asaluxe.png";
 
 const LatestProject = () => {
   return (
